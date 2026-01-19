@@ -14,3 +14,9 @@ How to Run
 User
 Username: admin  
 Password: 1234
+
+Contribution:
+1. Fork the repository
+2. Create a new branch
+3. Commit changes
+4. Open a Pull Request
