@@ -19,9 +19,7 @@ namespace DiagnosticCenterManagement
         }
 
         string connStr =
-        @"Data Source=(LocalDB)\MSSQLLocalDB;
-AttachDbFilename=|DataDirectory|\DiagnosticCentreDB.mdf;
-Integrated Security=True";
+      @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\GitHub\DiagnosticCenterManagement\DiagnosticCentreDB.mdf;Integrated Security=True";
         private void cmbBranch_SelectedIndexChanged(object sender, EventArgs e)
         {
 
