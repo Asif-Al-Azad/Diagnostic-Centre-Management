@@ -10,7 +10,6 @@ How to Run
 2. Open the solution in Visual Studio
 3. Click **Start**
 4. Database will auto attach
-5. Set your connection string according to your project folder(.mdf and .ldf file path)
 
 User
 Username: admin  
