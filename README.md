@@ -8,10 +8,14 @@ Requirements
 How to Run
 1. Clone the repository
 2. Open the solution in Visual Studio
-3. Click **Start**
-4. Database will auto attach
+3. Database will auto attach
+4. Right click on the .mdf file in solution explorer then click open. Database will now open in the server explorer tab.
+5. Now replace the below connection string under those forms code where string connStr exists.
+   string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DiagnosticCentre.mdf;Integrated Security=True;Connect Timeout=30";
+==>Here replace the DataDirectory section with your project directory address.
+6. Click **START**
 
-User
+User:
 Username: admin  
 Password: 1234
 
