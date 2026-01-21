@@ -11,9 +11,9 @@ How to Run
 3. Database will auto attach
 4. Right click on the .mdf file in solution explorer then click open. Database will now open in the server explorer tab.
 5. Now replace the below connection string under those forms code where string connStr exists.
-   string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DiagnosticCentre.mdf;Integrated Security=True;Connect Timeout=30";
-==>Here replace the DataDirectory section with your project directory address.
-6. Click **START**
+6. string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DiagnosticCentre.mdf;Integrated Security=True;Connect Timeout=30";
+7. Here replace the DataDirectory section with your project directory address.
+8. Click **START**
 
 User:
 Username: admin  
